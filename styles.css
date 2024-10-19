@@ -1,0 +1,39 @@
+body{  
+  color :azure;
+  background:cadetblue;
+  font-family: "Merriweather", serif;
+} 
+section {
+  background: rgb(39,97,99);
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+  .chamada-texto{
+    margin-right: 20px;
+
+  }
+  h1{
+    font-size: 25px;
+  }
+  img{
+    height: 200px;
+  }
+
+  .categoria-videos{
+display: flex;
+overflow-x: auto;
+gap: 15px;
+  }
+  .categoria-videos img{
+opacity: 0.5;
+
+  }
+  .categoria-videos img:hover {
+opacity: 2.0;
+border: 1px solid palevioletred
+  }
+  .categoria h2 {
+color:rgb(39,97,99);
+  }
